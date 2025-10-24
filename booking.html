@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nobleman's Burgers</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="pictures/logo.png">
+  <script src="script.js" defer></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poller+One&display=swap');
+  </style>
+  <script src="https://kit.fontawesome.com/2f8fad27bf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <!--Hamburger button and lines for design-->
+      <input type="checkbox" id="checkbox">
+      <div class="menuLine" id="line1"></div>
+      <div class="menuLine" id="line2"></div>
+      <div class="menuLine" id="crossLine1"></div>
+      <div class="menuLine" id="crossLine2"></div>
+      <div class="menuLine" id="line3"></div>
+      <nav class="mainNav">
+        <ul>
+          <li><a href="index.html">Hem</a></li>
+          <li><a href="menu.html">Meny</a></li>
+          <li><a href="restaurants.html">Restauranger</a></li>
+          <li><a href="booking.html">Boka bord</a></li>
+          <li><a href="about.html">Om oss</a></li>
+        </ul>
+      </nav>
+    </header>
+
+  <main id="mainBooking">
+    <form>
+      <h2>Boka bord: </h2>
+      <label for="name">Namn: </label>
+      <input type="text" name="name" id="name" placeholder="Förnamn, Efternamn">
+      <br><br>
+      <label for="number">Mobilnummer: </label>
+      <input type="tel" name="number" id="number" placeholder="xxx-xxx xx xx">
+      <br><br>
+      <label for="email">Epost: </label>
+      <input type="email" name="email" id="email" placeholder="mail@domain.se">
+      <br><br>
+      <label for="restaurant">Välj restaurang: </label>
+      <select name="restaurant" id="restaurant">
+        <option value="skeppskajen">Skeppskajen</option>
+        <option value="fabriksgatan">Fabriksgatan</option>
+        <option value="paradisgatan">Paradisgatan</option>
+      </select>
+      <br><br>
+      <label for="date">Välj datum: </label>
+      <input type="date" name="date" id="date">
+      <br><br>
+      <label for="time">Välj tid: </label>
+      <select name="time" id="time">
+        <option value="10">10:00</option>
+        <option value="10.5">10:30</option>
+        <option value="11">11:00</option>
+        <option value="11.5">11:30</option>
+        <option value="12">12:00</option>
+        <option value="12.5">12:30</option>
+        <option value="13">13:00</option>
+        <option value="13.5">13:30</option>
+        <option value="14">14:00</option>
+        <option value="14.5">14:30</option>
+        <option value="15">15:00</option>
+        <option value="15.5">15:30</option>
+        <option value="16">16:00</option>
+        <option value="16.5">16:30</option>
+        <option value="17">17:00</option>
+        <option value="17.5">17:30</option>
+        <option value="18">18:00</option>
+        <option value="18.5">18:30</option>
+        <option value="19">19:00</option>
+        <option value="19.5">19:30</option>
+        <option value="20">20:00</option>
+        <option value="20.5">20:30</option>
+        <option value="21">21:00</option>
+        <option value="21.5">21:30</option>
+      </select>
+      <br><br>
+      <input type="submit" value="Boka" class="formButton">
+
+      <input type="reset" class="formButton">
+    </form>
+  </main>
+
+  <footer>
+    <a href="https://www.facebook.com" id="fb" target="_blank"><img src="pictures/icons/facebook.png" alt="facebook logo"></a>
+    <a href="https://www.instagram.com" id="ig" target="_blank"><img src="pictures/icons/instagram.png" alt="instagram logo"></a>
+    <a href="https://www.youtube.com" id="yt" target="_blank"><img src="pictures/icons/youtube.png" alt="youtube logo"></a>
+    <a href="https://x.com" id="x" target="_blank"><img src="pictures/icons/twitter-alt.png" alt="X logo"></a>
+    <a href="https://www.tiktok.com" id="tt" target="_blank"><img src="pictures/icons/tik-tok.png" alt="tiktok logo"></a>
+  </footer>
+</body>
+</html>

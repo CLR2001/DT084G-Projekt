@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nobleman's Burgers</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="pictures/logo.png">
+  <script src="script.js" defer></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poller+One&display=swap');
+  </style>
+  <script src="https://kit.fontawesome.com/2f8fad27bf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <!--Hamburger button and lines for design-->
+      <input type="checkbox" id="checkbox">
+      <div class="menuLine" id="line1"></div>
+      <div class="menuLine" id="line2"></div>
+      <div class="menuLine" id="crossLine1"></div>
+      <div class="menuLine" id="crossLine2"></div>
+      <div class="menuLine" id="line3"></div>
+      <nav class="mainNav">
+        <ul>
+          <li><a href="index.html">Hem</a></li>
+          <li><a href="menu.html">Meny</a></li>
+          <li><a href="restaurants.html">Restauranger</a></li>
+          <li><a href="booking.html">Boka bord</a></li>
+          <li><a href="about.html">Om oss</a></li>
+        </ul>
+      </nav>
+    </header>
+
+  <main id="mainMenu"> 
+    <section class="menuSection">
+      <h1>Snacks</h1>
+      <div class="menuListContainer">
+       <div class="menuItem">
+          <ol class="menuList">
+            <li>Nybakade brödsnittar <span class="price">39:-</span></li>
+            <li>Vitlöksbröd <span class="price">49:-</span></li>
+            <li>Buffalo Wings <span class="price">69:-</span></li>
+            <li>Nachos <span class="price">79:-</span></li>
+            <li>Mozzarella Sticks <span class="price">39:-</span></li>
+            <li>Chili Cheese <span class="price">39:-</span></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <section class="menuSection">
+      <h1>Burgare</h1>
+      <div class="menuItemsContainer">
+        <div class="menuItem">
+          <h3>The Classic Smash</h3>
+          <h5>Pris: <span class="price">110:-</span></h5>
+          <p>Dubbel smash med smält amerikansk cheddar, silverlök, saltgurka, 
+            ketchup och gul senap på rostat potatisbröd. Tidlös perfektion. inkl. pommes & dryck.</p>
+        </div>
+        <div class="menuItem">
+          <h3>Tryffel & Parmesan</h3>
+          <h5>Pris: <span class="price">145:-</span></h5>
+          <p>Lyxig smashburgare med tryffelaioli, karamelliserad lök, 
+            smält provoloneost och hyvlad parmesanost på toppen. inkl. pommes & dryck.</p> 
+        </div>
+        <div class="menuItem">
+          <h3>Spicy Jalapeño Smash</h3>
+          <h5>Pris: <span class="price">125:-</span></h5>
+          <p>För den som gillar hetta. Dubbla smashpuckar med pepper jack-ost, chilimajonnäs, 
+            picklad jalapeño och krispig sallad. inkl. pommes & dryck.</p>
+        </div>
+        <div class="menuItem">
+          <h3>BBQ Bacon Delight</h3>
+          <h5>Pris: <span class="price">135:-</span></h5>
+          <p>Rökig och matig. Dubbla smashpuckar med cheddarost, 
+            krispigt bacon, rödlök, och en söt-rökig BBQ-sås. inkl. pommes & dryck.</p>
+        </div>
+        <div class="menuItem">
+          <h3>The Swedish Dream</h3>
+          <h5>Pris: <span class="price">130:-</span></h5>
+          <p>En svensk twist. Smashpuckar med Västerbottensost, lingonsylt, 
+            tunna skivor rödlök och majonnäs. inkl. pommes & dryck.</p>
+        </div>
+        <div class="menuItem">
+          <h3>Mushroom Swiss Smash</h3>
+          <h5>Pris: <span class="price">135:-</span></h5>
+          <p>Umami-rik och smakfull. Dubbla smashpuckar toppade med smält schweizerost och vitlöksstekta champinjoner. 
+            inkl. pommes & dryck.
+          </p>
+        </div>
+        <div class="menuItem">
+          <h3>French Onion Smash</h3>
+          <h5>Pris: <span class="price">140:-</span></h5>
+          <p>Inspirerad av fransk löksoppa. Smashpuckar med rejält med långkokt, 
+            karamelliserad lök och en skiva smält Gruyèreost. inkl. pommes & dryck.</p>
+        </div>
+        <div class="menuItem">
+          <h3>Avocado Ranch Smash</h3>
+          <h5>Pris: <span class="price">140:-</span></h5>
+          <p>Fräsch och krämig. Dubbla smashpuckar, smält cheddar, krämig ranchdressing och skivad avokado. inkl. pommes & dryck.</p>
+        </div>
+        <div class="menuItem">
+          <h3>Hot Honey Gochujang</h3>
+          <h5>Pris: <span class="price">130:-</span></h5>
+          <p>En modern fusion. Smashpuckar med smält Muenster-ost, en sås baserad på Gochujang och ringlad "Hot Honey". inkl. pommes & dryck.</p>
+        </div>
+        <div class="menuItem">
+          <h3>California Burger</h3>
+          <h5>Pris: <span class="price">125:-</span></h5>
+          <p>Solig och krispig. Dubbla smashpuckar, smält Monterey Jack-ost, tomat, 
+            krispig isbergssallad, rödlök och en klassisk tusen-islands-dressing. inkl. pommes & dryck.</p>
+        </div>
+        <div class="menuItem">
+          <h3>Caramelized Onion & Aioli</h3>
+          <h5>Pris: <span class="price">120:-</span></h5>
+          <p>En uppgraderad klassiker. Dubbla smashpuckar med smält Goudaost, 
+            rikligt med långsamt karamelliserad gul lök och en krämig vitlöksaioli. inkl. pommes & dryck.</p>
+        </div>
+        <div class="menuItem">
+          <h3>No Nonsense Smash</h3>
+          <h5>Pris: <span class="price">105:-</span></h5>
+          <p>Två smashpuckar med perfekt stekyta, dubbla skivor smält cheddarost, salt och peppar. 
+            Serveras på rostat brioche. Enkel, ren och maximal köttsmak. Inga krusiduller. inkl. pommes & dryck.</p>
+        </div>
+      </div>
+    </section>
+    <section class="menuSection">
+      <h1>Dessert</h1>
+      <div class="menuListContainer">
+       <div class="menuItem">
+          <ol class="menuList">
+            <li>Milkshake - Choklad <span class="price">49:-</span></li>
+            <li>Cheesecake <span class="price">69:-</span></li>
+            <li>Kanelbulle <span class="price">29:-</span></li>
+            <li>Äppelpaj <span class="price">59:-</span></li>
+            <li>Brownie <span class="price">59:-</span></li>
+            <li>Vaniljglass <span class="price">39:-</span></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <section class="menuSection">
+      <h1>Dryck</h1>
+      <div class="menuListContainer drinksContainer">
+       <div class="menuItem">
+          <h2>Alkoholfritt</h2>
+          <ol class="menuList drinksList">
+            <li>Vatten</li>
+            <li>Saft</li>
+            <li>Cola</li>
+            <li>Fanta</li>
+            <li>Sprite</li>
+            <li>Pepsi</li>
+            <li>Dr. Pepper</li>
+            <li>Mountain Dew</li>
+            <li>Nocco</li>
+            <li>Capri-Sun</li>
+            <li>Festis</li>
+            <li>Mer</li>
+          </ol>
+        </div>
+        <div class="menuItem">
+          <h2>Alkohol</h2>
+          <ol class="menuList drinksList">
+            <li>Bira</li>
+            <li>Bira</li>
+            <li>Bira</li>
+            <li>Bärs</li>
+            <li>Bärs</li>
+            <li>Bärs</li>
+            <li>Vin</li>
+            <li>Vodka</li>
+            <li>Whiskey</li>
+            <li>Martini</li>
+            <li>Long Island</li>
+            <li>Piña Colada</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="https://www.facebook.com" id="fb" target="_blank"><img src="pictures/icons/facebook.png" alt="facebook logo"></a>
+    <a href="https://www.instagram.com" id="ig" target="_blank"><img src="pictures/icons/instagram.png" alt="instagram logo"></a>
+    <a href="https://www.youtube.com" id="yt" target="_blank"><img src="pictures/icons/youtube.png" alt="youtube logo"></a>
+    <a href="https://x.com" id="x" target="_blank"><img src="pictures/icons/twitter-alt.png" alt="X logo"></a>
+    <a href="https://www.tiktok.com" id="tt" target="_blank"><img src="pictures/icons/tik-tok.png" alt="tiktok logo"></a>
+  </footer>
+</body>
+</html>
